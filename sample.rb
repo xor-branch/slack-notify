@@ -10,5 +10,5 @@ module Clockwork
         sample.notify("hello, this message is sending each 3 minute")
     end
 
-    every(1.minutes, 'less.frequent.job')
+    every(3.minutes, 'less.frequent.job')
 end
